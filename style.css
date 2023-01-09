@@ -1,48 +1,85 @@
 body {
     background: black;
-    border-width: 40px;
-    border-style: inset;
-    border-style: solid;
-    border-top-color: #F27AC7;
-    border-left-color: #F27AC7;
-    border-right-color: aquamarine;
-    border-bottom-color: aquamarine;
+    background-image: url(./images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
   }
 
 h1 {
     color: white;
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-left: 200px;
     font-family: "Courier New", monospace;
     font-size: 80px;
+    margin-top: 50px;
 }
 
-#button {
-    background-color: black;
-    width: 200px;
+h2 {
+    padding-top: 100px;
+    color: white;
+    padding-left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+p {
+  color: white;
+  padding-left: 200px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.logo {
+  padding-top: 50px;
+  padding-left: 186px;
+}
+.logo a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.topnav{
+  padding-top:50px;
+  padding-right:100px;
+}
+.topnav a {
+  float: right;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #00c4c6;
+}
+
+#clickMe {
+    padding-left: 200px;
     font-size: 20px;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
+    font-weight: bold;
+    color: #00c4c6;
     cursor: pointer;
-    position: absolute;
-    margin-left: 100px;
-  }
-
-  .container{
-    width: 80%;
-    height: 50vh;
-    background: black;
-    color: white;
-    display: flex;
-    margin-left: 100px;
-    margin-top: -40px;
-
-  }
-
-  .container h2{
-    font-size: 60px;
-    font-weight: 600;
-    color: white;
     font-family: 'Courier New', Courier, monospace;
   }
+
+#Boulder {
+    position: fixed;
+    bottom: 48;
+    right: 100;
+  }
+
+#boulder-text {
+    position: fixed;
+    right: 400;
+    bottom: 50;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
