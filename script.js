@@ -4,7 +4,7 @@ h2.textContent = "This content added by JavaScript";
 document.querySelector("body").appendChild(h2);
 */
 
-const input = document.getElementsByClassName('about');
+const input = document.getElementsById('clickMe');
 
 function clickAlert() {
   alert('I was clicked!');
