@@ -1,7 +1,7 @@
 body {
     background: black;
-    background-image: url(./images/henrik-l-2DfMzzECu1o-unsplash.jpg);
-    background-size: cover;
+    background-image: url(./images/henrik-l-2DfMzzECu1o-unsplash-edited.png);
+    background-size: 220%;
     background-position: center;
   }
 
@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 50px;
     color: white;
     padding-left: 75px;
@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-  color: white;
+  color: #b9b18d;
   padding-left: 75px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
@@ -40,7 +40,7 @@ p {
   color: white;
   padding-left: 75px;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 div.menu {
@@ -48,7 +48,7 @@ div.menu {
   top: 0;
   right: 0;
   margin-top: 50px;
-  margin-right: 25px;
+  margin-right: 100px;
 }
 
 .main-content {
@@ -94,16 +94,27 @@ section {
   font-weight:100;
 }
 
+.project-divs {
+  padding-left: 75px;
+}
 #button {
   font-size: 20px;
+  color: #00c4c6;
+  background-color: black;
 }
 #button2 {
   font-size: 20px;
+  color: #00c4c6;
+  background-color: black;
 }
 #button3 {
   font-size: 20px;
+  color: #00c4c6;
+  background-color: black;
 }
 
-div.to-projects {
-  margin-top:50px;
+.email a {
+  color: white;
+  float: right;
+  padding-right: 15px;
 }
