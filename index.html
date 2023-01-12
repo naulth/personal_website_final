@@ -5,34 +5,62 @@
   </head>
   <body>
     <div class="menu">
-      <div class="topnav">
-        <a href="#contact">Contact</a>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#home">Home</a>
-      </div>
-    </div>  
-    <div>
-      <h2>Hello, welcome.</h2>
+      <nav class="topnav">
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div> 
+
+    <div class="main-content">
+      <section id="home">
+        <div>
+          <h2>Welcome, my name is</h2>
+          <h1>Hayden Nault.</h1>
+        </div>
+        <div class="home-text">
+          <p>I am a partner and a dog dad, a bodybuilder, a gamer, <br> a worldbuilder, and I am learning to code.</p><br>
+          <p>I am in a Software Engineering program at The Flatiron School.</p>
+          <p>I'd like to share with you what I've been working on.</p><br><br>
+        </div>
+        <div class="to-projects">
+          <a class="scroll" href="#projects">to Projects</a>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <h3>Website Project</h3>
+     
+            <input id="button" type="button" value="Click Here"/>
+     
+
+        <h3>Coding Project</h3>
+        
+          <input id="button2" type="button" value="Click Here"/>
+ 
+        <h3>Developer Project</h3>
+    
+          <input id="button3" type="button" value="Click Here"/>
+              
+        <a class="scroll" href="#about">to About</a>
+      </section>
+
+      <section id="about">
+        <h2>About</h2>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+      </section>
     </div>
 
-    <h1>I'm Hayden.</h1>
-    <div>
-      <p>I am in a Software Engineering program at The Flatiron School.</p>
-      <p>I am a partner and a dog dad, a bodybuilder, a gamer, a worldbuilder, <br>and I'm sure there's something else...</p>
-      <p>I'd like to share with you a few projects that I've been working on.</p><br>
-      <div id="clickMePadding">
-        <span id="clickMe">Let's dive in.</span>
-      </div>
-    </div>
-
-    <!--<img id="Boulder"
-    src="./images/Boulder.PNG"
-    alt="A fluffy dog named Boulder"
-    />
-
-    <p id="boulder-text">This is The Boulder</p> -->
+      <script src="./script.js"></script>
     </body>
 </html>
 
-  

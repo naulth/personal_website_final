@@ -1,57 +1,74 @@
 body {
     background: black;
-    background-image: url(./images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+    background-image: url(./images/henrik-l-2DfMzzECu1o-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+html {
+    scroll-behavior: smooth;
   }
 
 h1 {
-    color: white;
-    padding-left: 200px;
+    color: #00c4c6;
+    padding-left: 75px;
     font-family: "Courier New", monospace;
     font-size: 80px;
-    margin-top: 50px;
+    margin-top: -50px;
+    font-weight: 200;
 }
 
 h2 {
     padding-top: 100px;
+    padding-bottom: 50px;
     color: white;
-    padding-left: 200px;
+    padding-left: 75px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
+    font-weight:100;
+}
+
+h3 {
+  color: white;
+  padding-left: 75px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 p {
   color: white;
-  padding-left: 200px;
+  padding-left: 75px;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
+  font-size: 25px;
 }
 
-.logo {
-  padding-top: 50px;
-  padding-left: 186px;
+div.menu {
+  position:fixed;
+  top: 0;
+  right: 0;
+  margin-top: 50px;
+  margin-right: 25px;
 }
-.logo a {
-  float: left;
-  color: #fff;
+
+.main-content {
+  margin-top: 25px;
+}
+
+ nav.topnav a {
+ 
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
   font-family: 'Courier New', Courier, monospace;
+  transition: all ease-out 250ms;
 }
 
-.topnav{
-  padding-top:50px;
-  padding-right:100px;
-}
-.topnav a {
-  float: right;
-  color: #fff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 30px;
-  font-family: 'Courier New', Courier, monospace;
+
+nav li {
+  list-style: none;
 }
 
 
@@ -60,22 +77,33 @@ p {
   color: #00c4c6;
 }
 
-#clickMePadding {
-  padding-left: 200px;
+.topnav a:active {
+  color: #00c4c6;
 }
 
-#clickMe {
-    font-size: 20px;
-    font-weight: bold;
-    color: #2488a0;
-    cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius:0cm;
-    display: inline-block;
-    padding-left: 7px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  } 
+
+section {
+  height: 100vh;
+}
+
+.scroll {
+  color: white;
+  padding-left: 75px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight:100;
+}
+
+#button {
+  font-size: 20px;
+}
+#button2 {
+  font-size: 20px;
+}
+#button3 {
+  font-size: 20px;
+}
+
+div.to-projects {
+  margin-top:50px;
+}

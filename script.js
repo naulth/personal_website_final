@@ -1,14 +1,22 @@
-/*const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-
-document.querySelector("body").appendChild(h2);
-*/
-
-const input = document.getElementsById('clickMe');
+const input = document.getElementById('button');
 
 function clickAlert() {
-  alert('I was clicked!');
+  alert('This project does not exist yet! Check back later.');
 }
 
 input.addEventListener('click', clickAlert);
 
+
+//...........................................................
+
+const input2 = document.getElementById('button2');
+
+
+input2.addEventListener('click', clickAlert);
+
+//...........................................................
+
+const input3 = document.getElementById('button3');
+
+
+input3.addEventListener('click', clickAlert);
