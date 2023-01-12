@@ -5,7 +5,7 @@ body {
     background-position: center;
   }
 
-html {
+  html {
     scroll-behavior: smooth;
   }
 
@@ -117,4 +117,10 @@ section {
   color: white;
   float: right;
   padding-right: 15px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#boulder {
+  height: 400px;
+  padding-left: 75px;
 }
