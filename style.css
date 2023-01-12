@@ -101,16 +101,19 @@ section {
   font-size: 20px;
   color: #00c4c6;
   background-color: black;
+  border: none;
 }
 #button2 {
   font-size: 20px;
   color: #00c4c6;
   background-color: black;
+  border: none;
 }
 #button3 {
   font-size: 20px;
   color: #00c4c6;
   background-color: black;
+  border: none;
 }
 
 .email a {
